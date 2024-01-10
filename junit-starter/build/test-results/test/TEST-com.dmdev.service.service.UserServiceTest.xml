@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.dmdev.service.service.UserServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-25T14:15:08" hostname="DESKTOP-C90U5MP" time="0.042">
+  <properties/>
+  <testcase name="usersSizeIfUserAdded()" classname="com.dmdev.service.service.UserServiceTest" time="0.042"/>
+  <system-out><![CDATA[Before each: com.dmdev.service.service.UserServiceTest@5884a914
+Test 2: com.dmdev.service.service.UserServiceTest@5884a914
+After each: com.dmdev.service.service.UserServiceTest@5884a914
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

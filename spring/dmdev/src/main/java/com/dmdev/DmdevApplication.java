@@ -1,0 +1,19 @@
+package com.dmdev;
+
+import com.dmdev.spring.config.DatabaseProperties;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
+
+@SpringBootApplication
+@ConfigurationPropertiesScan
+public class DmdevApplication {
+
+	public static void main(String[] args) {
+		var context = SpringApplication.run(DmdevApplication.class, args);
+		System.out.println(context.getBeanDefinitionCount());
+		System.out.println(context.getBean("pool1"));
+		System.out.println(context.getBean(DatabaseProperties.class));
+	}
+
+}
